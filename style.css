@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nav-Bar Started */
+#nav-bar{
+    width: 100vw;
+    height: 56px;
+    background-color: white;
+    margin: 0px 12px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 0 1rem 0 1rem; */
+}
+
+.nav-left{
+    width: 10vw;
+    height: 100%;
+    /* margin-left: 1rem; */
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-icon i{
+    font-size: 1.25rem;
+    
+}
+
+.nav-logo{
+    width: 7.5rem;
+    height: 100%;
+
+}
+.nav-logo img{
+    width: 5.625rem;
+    height: 55px;
+}
+
+#nav-center{
+    width: 45vw;
+    height: 40px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+
+}
+
+.search-input input{
+    width: 33.5rem;
+    height: 40px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    padding-left: 10px;
+}
+
+.search-logo{
+    width: 4rem;
+    height: 40px;
+    background-color: #f8f8f8;
+    border: 1px solid rgb(142, 141, 141) ;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.search-logo i{
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 1.25rem;
+}
+
+.mic{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #f8f8f8;
+    margin-left: 1rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mic i{
+    font-size: 1.25rem;
+    
+}
+
+#nav-right{
+    width: 16vw;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: red; */
+}
+
+#nav-right button{
+    width: 6rem;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    border: 2px solid whitesmoke;
+    color: rgb(10, 54, 199);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+/* Nav-Bar Ended */
+
+/* Side Nav-Bar Stared */
+#sideNav{
+    width: 8vw;
+    height: 100vh;
+    /* margin-top: 56px; */
+    position: fixed;
+    left: 0px;
+    /* display: flex; */
+    /* background-color: #000; */
+}
+
+.icons div{
+    width: 4rem;
+    height: 74px;
+    padding: 14px 16px 10px 16px;
+    text-align: center;
+}
+
+.icons i{
+    font-size: 1.25rem;
+}
+
+.icons p{
+    font-size: 0.75rem;
+}
+
+.icons div:hover{
+    /* width: 5rem;
+    height: 74px; */
+    background-color: #0000000d;
+    border-radius: 15px;
+}
+
+/* Side Nav-Bar Ended */
+
+/* ironSelector Started */
+
+#ironSelector{
+    width: 91vw;
+    height: 56px;
+    margin-top: 8vh;
+    margin-left: 8vw;
+    /* background-color: black; */
+    color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#ironSelector p{
+    background-color: #0000000d;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 5px 9px;
+    border-radius: 10px;
+}
+
+#ironSelector p:hover{
+    background-color: black;
+    color: white;
+}
+/* ironSelector Ended */
+
+/* Cards Started */
+#cards{
+    width: 91vw;
+    height: 90vh;
+    margin-left:115px;
+    /* background-color: black; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 6px;
+    grid-row-gap: 6px;
+}
+
+#cards img{
+    width: 19.625rem;
+    height: 164px;
+    border-radius: 10px;
+}
+
+.details{
+    width: 97%;
+    height: 100px;
+    /* background-color: bisque; */
+}
+/* Cards Ended */
